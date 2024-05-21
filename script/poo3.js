@@ -38,10 +38,16 @@ document.getElementById('transactionForm').addEventListener('submit',function(ev
     }
 
     document.getElementById('output2').innerHTML = `El saldo actual es : ${cuenta.verSaldo()}`;
+
+
+    //PROFE: intenté sacar el resultado para que no me lo haga en una pantalla aparte pero no lo logro. 
+
+    document.getElementById('resultadoFinal').innerHTML = deposit, withdrawalResult;
 })
 
 
 
+//Intenté con este código que tengo comentado pero tampoco. Me perdí.
 
 // function agregarNumero(amount) {
 // let valorActual = valorActual;
